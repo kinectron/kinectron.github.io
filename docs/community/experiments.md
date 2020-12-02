@@ -1,7 +1,5 @@
 # Projects Built with Kinectron
 
-Want your project included here? Send an email to lisajamhoury at gmail dot com. 
-
 ## Flappy Shadow
 
 ![Flappy Shadow](../assets/images/experiments/flappy.png)
@@ -25,3 +23,7 @@ A project that disassociates the body as input from its body as output. Created 
 ![Future Forest Experience](../assets/images/experiments/forest.png)
 
 An immersive future forest experience inspired by a Japanese rock garden. Created by Shawn Ma. [Learn more](https://shawnmasite.wordpress.com/2018/01/07/the-future-forest-experience/).
+
+## Submit Your Project
+
+Want your project included here? Send an email to lisajamhoury at gmail dot com. 

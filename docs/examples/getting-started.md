@@ -7,7 +7,7 @@ Examples for both Azure Kinect and Windows Kinect are available for [p5.js](http
 
 All of the p5 Kinectron examples for Windows Kinect are available in the [p5 Web Editor](https://alpha.editor.p5js.org/). Most work only with live Kinectron data. Some (mostly the skeleton examples) work with recorded data.
 
-> Note! In order to stream Kinectron data to the p5 editor, you must use a public Kinectron address. See Getting Started: Server #4 for more details. 
+> Note! In order to stream Kinectron data to the p5 editor, you must use a public Kinectron address. See [Getting Started: Server: Create A Public Address](/server/getting-started?id=_4-optional-create-a-public-address) for more details. 
 
 [Beach](http://alpha.editor.p5js.org/lisajamhoury/sketches/r13uym_MM) — Drawing the key image to a canvas.
 

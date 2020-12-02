@@ -20,8 +20,9 @@ Find your IP address on your Kinectron server. It is printed at the top of your 
 
 Use the following code with the IP address from your Kinectron server.
 
-```
-let kinectron = new Kinectron("192.168.68.118"); // Add Kinectron loca address here
+```javascript
+// Add Kinectron local address here
+let kinectron = new Kinectron("192.168.68.118"); 
 ```
 
 If you're working with the [p5 Web Editor](https://editor.p5js.org/), or want to share your server on the public internet, you will need a public https address. After you press "Create Public Address" on your server application, you will see a public address appear.
@@ -30,8 +31,9 @@ If you're working with the [p5 Web Editor](https://editor.p5js.org/), or want to
 
 Use this instead of your local address, as follows:
 
-```
-let kinectron = new Kinectron("46b028e5c8ec.ngrok.io"); // Add Kinectron public address here
+```javascript
+// Add Kinectron public address here
+let kinectron = new Kinectron("46b028e5c8ec.ngrok.io"); 
 ```
 
 ### 3. Set Kinect Type
