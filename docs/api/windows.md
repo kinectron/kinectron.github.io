@@ -5,7 +5,7 @@
 Include the library in the head of your document.
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/kinectron/kinectron@0.3.6/client/dist/kinectron-client.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kinectron/kinectron@0.3.7/client/dist/kinectron-client.js"></script>
 ```
 
 ### Create an Instance of Kinectron

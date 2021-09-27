@@ -6,7 +6,7 @@
 Include the library in the head of your document.
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/kinectron/kinectron@0.3.6/client/dist/kinectron-client.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kinectron/kinectron@0.3.7/client/dist/kinectron-client.js"></script>
 ```
 
 ### Create an Instance of Kinectron
@@ -76,6 +76,8 @@ kinectron.startRawDepth(myCallback);
 kinectron.startTrackedBodies(myCallback);
 kinectron.startTrackedJoint(kinectron.HANDRIGHT, myCallback); // See "Accessing Joints" below
 kinectron.startBodies(myCallback);
+kinectron.startRGBD(myCallback);
+
 ```
 
 ### Set Callbacks
@@ -88,6 +90,8 @@ kinectron.setDepthCallback(myCallback);
 kinectron.setRawDepthCallback(myCallback);
 kinectron.setTrackedBodiesCallback(myCallback);
 kinectron.setBodiesCallback(myCallback);
+kinectron.startRGBD(myCallback);
+
 ```
 
 ### Accessing Individual Joints
