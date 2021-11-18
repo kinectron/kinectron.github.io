@@ -18,6 +18,7 @@ These are the single frames that are currently available:
 - "Skeleton (Tracked Bodies)" returns all tracked bodies one at a time. It does not differentiate between tracked bodies. For troubleshooting, Kinectron by default will draw the tracked bodies on the application interface, however, only the body data is sent over the peer connection as a JSON object.
 - "All Bodies" returns an array of all bodies tracked. For troubleshooting, Kinectron by default will draw the tracked bodies on the application interface, however, only the data is sent over the peer connection as a JSON object.
 - "Key" returns a png of the image of the tracked bodies on a transparent background. It has the effect of a green screen.
+- "Depth Key" returns an array of raw depth values corresponding to the tracked bodies. The values range from 0 - 3860. The values correspond to depth in millimeters. It displays a lossless webp image in the application for testing and feedback.
 - "RGBD" returns a webp with the color image registered to the depth feed and the 8-bit depth feed stored in the alpha channel.
 - "Stop All" stops the current frame.
 

@@ -76,8 +76,9 @@ kinectron.startRawDepth(myCallback);
 kinectron.startTrackedBodies(myCallback);
 kinectron.startTrackedJoint(kinectron.HANDRIGHT, myCallback); // See "Accessing Joints" below
 kinectron.startBodies(myCallback);
+kinectron.startKey(myCallback);
+kinectron.startDepthKey(myCallback);
 kinectron.startRGBD(myCallback);
-
 ```
 
 ### Set Callbacks
@@ -90,8 +91,9 @@ kinectron.setDepthCallback(myCallback);
 kinectron.setRawDepthCallback(myCallback);
 kinectron.setTrackedBodiesCallback(myCallback);
 kinectron.setBodiesCallback(myCallback);
+kinectron.setKeyCallback(myCallback);
+kinectron.setDepthKeyCallback(myCallback);
 kinectron.startRGBD(myCallback);
-
 ```
 
 ### Accessing Individual Joints
