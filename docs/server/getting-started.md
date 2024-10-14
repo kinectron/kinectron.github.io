@@ -8,9 +8,9 @@ In this section we'll take a look at how to use the Kinectron server. The Kinect
 
 ### 1. Kinectron Application Installation
 
-You will need to be running Windows 8 or Windows 10 for the app to run correctly. If you are running Windows 8, and plan to use the Kinect Windows V2, you will also need to download and install the [Official Kinect2 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=44561) before running Kinectron.
+You will need to be running Windows for the app to run correctly. If you are running Windows 8, and plan to use the Kinect Windows V2, you will also need to download and install the [Official Kinect2 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=44561) before running Kinectron.
 
-Download and unzip [preview release 0.3.7](https://github.com/kinectron/kinectron/releases/tag/0.3.7). Make sure you download the file that is linked from dropbox in the release description. The file will be labeled "Kinectron.xxxx.zip," you do not need the files labeled "Source Code."
+Download and unzip [preview release 0.3.9](https://github.com/kinectron/kinectron/releases/tag/0.3.9). Make sure you download the file that is linked from dropbox in the release description. The file will be labeled "Kinectron.xxxx.zip," you do not need the files labeled "Source Code."
 
 Once the file downloads, unzip the folder close to the C:\ drive level to avoid an error with Windows filename size limitations.
 
@@ -45,9 +45,13 @@ Navigate to Settings > Network & Internet > Windows Firewall > Allow an app or f
 
 As of Kinectron version 0.3.4 you have the option to start a public address alongside your local address. The local address is an address on your local network and shows up by default. The public address exposes your Kinectron server on the public internet over https. You will use either your private or public address to connect your Kinectron client to your server.
 
-To create a public address, just click the Create Public Address button.
+The public address feature uses ngrok to create a secure tunnel to your application. To use it you will need to enter your own authtoken. To do this, create a free account, and copy the authtoken that is automatically created for you.
 
-![Screenshot](../assets/images/server/publicaddress.png)
+![Screenshot](../assets/images/server/ngrok-authtoken.png)
+
+Enter your authtoken then click the Create Public Address button.
+
+![Screenshot](../assets/images/server/publicaddress-authtoken.png)
 
 If you're not sure what to do, don't do anything just yet. You can always create a public address later.
 
