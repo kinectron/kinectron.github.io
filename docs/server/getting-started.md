@@ -45,7 +45,7 @@ Navigate to Settings > Network & Internet > Windows Firewall > Allow an app or f
 
 As of Kinectron version 0.3.4 you have the option to start a public address alongside your local address. The local address is an address on your local network and shows up by default. The public address exposes your Kinectron server on the public internet over https. You will use either your private or public address to connect your Kinectron client to your server.
 
-The public address feature uses ngrok to create a secure tunnel to your application. To use it you will need to enter your own authtoken. To do this, create a free account, and copy the authtoken that is automatically created for you.
+The public address feature uses ngrok to create a secure tunnel to your application. To use it you will need to enter your own authtoken. To do this, create a free account at [https://ngrok.com/](https://ngrok.com/), and copy the authtoken that is automatically created for you.
 
 ![Screenshot](../assets/images/server/ngrok-authtoken.png)
 
