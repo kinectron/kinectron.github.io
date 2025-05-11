@@ -1,4 +1,6 @@
-# About Kinectron
+# About Kinectron Version 0 
+
+<b>NOTE! This version of Kinectron (Version 0) is no longer supported!!! See Version 1 Documentation on <a href="https://github.com/kinectron/kinectron">GitHub</a></b>
 
 Kinectron is an open source tool that brings realtime, motion capture data into the browser. 
 
